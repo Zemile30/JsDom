@@ -1,10 +1,1 @@
-{
-    "version": 3,
-    "mappings": "ACAA,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,mBAAmB;EAChC,WAAW,EAAE,GAAG;CAAG;;AAEvB,AAAA,CAAC,CAAC;EACE,KAAK,EAAE,MAAM;CAEQ;;AAHzB,AAEI,CAFH,AAEI,MAAM,CAAC;EACJ,KAAK,EAAE,KAAK;CAAG",
-    "sources": [
-        "style.sass",
-        "_main.sass"
-    ],
-    "names": [],
-    "file": "style.css"
-}
+{"version":3,"sources":["_main.sass","style.css","_dom.sass"],"names":[],"mappings":"AAAA;EACI,gCAAA;EACA,gBAAA;ACCJ;;ADCA;EACI,aAAA;ACEJ;ADDI;EACI,YAAA;ACGR;;ACTI;EACI,YAAA;EACA,mBAAA;EACA,yBAAA;EACA,gBAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;ADYR;ACXQ;EACI,cAAA;EACA,gBAAA;EACA,eAAA;EACA,cAAA;ADaZ;ACZQ;EACI,YAAA;EACA,YAAA;EACA,mBAAA;ADcZ;ACbQ;EACI,kBAAA;EACA,yBAAA;EACA,cAAA;EACA,mBAAA;EACA,eAAA;ADeZ;ACdQ;EACI,uBAAA;EACA,mBAAA;ADgBZ","file":"style.css"}
