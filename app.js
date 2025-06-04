@@ -5,13 +5,12 @@ $('.btn').click(function (e) {
     e.preventDefault();
     
     let a = (a) => {
-        for (let i = 0; i < a; i++) {
-            $('col-md-12').append(`<h3>${i}</h3>`);
+        for (let i = 1; i <=a; i++) {
+            $('.col-md-12').append(`<h2>${i}</h2>`);
         }
     }
     a($('input').val())
 });
-
 
 
 });
