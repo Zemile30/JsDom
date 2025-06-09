@@ -10,40 +10,47 @@ a:hover {
   color: black;
 }
 
-#dom .box {
+#dom .box .textbox {
   width: 300px;
   border-radius: 20px;
   background-color: #9c673e;
-  margin-top: 80px;
+  margin: 80px 0 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#dom .box h1 {
+#dom .box .textbox h1 {
   color: #ffffff;
   font-weight: 700;
   font-size: 50px;
   margin: 30px 0;
 }
-#dom .box input {
+#dom .box .textbox input {
   width: 230px;
   height: 60px;
   border-radius: 20px;
 }
-#dom .box .btn {
+#dom .box .textbox .btn {
   padding: 10px 28px;
   background-color: #ffffff;
   margin: 25px 0;
   border-radius: 20px;
   font-size: 20px;
 }
-#dom h2 {
+#dom .box .infobox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#dom .box .infobox h2 {
   border: 2px solid #333d4b;
   border-radius: 20px;
-  width: 170px;
-  height: 47px;
-  font-size: 25px;
+  width: 200px;
+  font-size: 22px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10px;
+  padding: 10px;
 }/*# sourceMappingURL=style.css.map */
