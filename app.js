@@ -3,25 +3,22 @@ $(document).ready(function () {
 
     $('.btn').click(function (e) { 
         e.preventDefault();
-        
-        let a = (a) => {
-            for (let i = 0; i < a; i++) {
-                $('.infobox').append(`<h2>${a}</h2>`);
+        if ($.trim($('input').val()) == "") {
+            $('input').val();
+        } else {
+            let k = (a) => {
+                for (let i = 0; i < a; i++) {$('.infobox').append(`<h2>${a}</h2>`)};            
             }
-        }
-        a($('input').val())
-    });
-
-    $('.btn').click(function (e) { 
-        e.preventDefault();
-        
-        let b = (b) => {
-        $('.infobox').append(`<h2>${b}</h2>`);
+            let b = (e) => Number(e) ? k(e) : $('.infobox').append(`<h2>${e}</h2>`);
+            b($('input').val());
         }
     
-        // b($('input').val())
-        
+        $('input').val('')
     });
+
+    
+        
+        
 
 
 });
